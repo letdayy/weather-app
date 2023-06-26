@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+/* modificar com javascript */
+.hide {
+    display: none;
+}
+
+/* main do projeto */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 600px;
+    border-radius: 10px;
+    background-color: #C5DCFF;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* formulário */
+.form-city {
+    display: flex;
+    flex-direction: column;
+    height: 5rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    width: 100%;
+    height: 150px;
+}
+
+/* texto referente ao input  */
+.form-city label {
+    padding: 10px;
+    font-size: 35px;
+}
+
+/* div que auxilia na estilização do input e do botão */
+.form-input-container{
+    display: flex;
+    align-items: center;
+    margin-top: 0.5rem;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+/* input para pesquisar a cidade */
+#input-city {
+    width: 400px;
+    height: 35px;
+    font-size: 15px;
+    padding-left: 0.5rem;
+    border: none;
+    border-radius: 10px;
+}
+
+/* botão para realizar a pesquisa */
+.btn-search {
+    width: 40px;
+    height: 35px;
+    background-color: #9CFFB2;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-search:hover {
+    background-color: #6ec480;
+    transform: scale(1.1);
+}
+
+/* Informações que foram pesquisadas:  */
+
+/* div que contem as informações sobre a cidade */
+.weather-data {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+
+/* nome da cidade pesquisada */
+#location-name {
+    font-size: 30px;
+}
+
+/* temperatura da cidade pesquisada */
+#temperature {
+    font-size: 80px;
+    font-weight: bold;
+}
+
+
+/* div com a descrição da temperatura e ícone correspondente */
+.description-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+/* texto da descrição do tempo */
+.description-text {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* informações mais detalhadas da cidade */
+.details-container {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 25px;
+
+}

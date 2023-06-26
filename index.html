@@ -11,22 +11,24 @@
     <main class="container">
         <form class="form-city">
             <label>Consulte o clima da cidade:</label>
-            <input type="text" id="input-city" placeholder="Digite o nome da cidade">
-            <button class="search">
-                <img src="imgs/search-icon.png" width="10px" alt="icone de pesquisa">
+            <div class="form-input-container">
+                <input type="text" id="input-city" placeholder="Digite o nome da cidade">
+                <button class="btn-search">
+                <img src="imgs/search-icon.png" width="20px" alt="icone de pesquisa">
             </button>
+            </div>
         </form>
         <div class="weather-data">
             <h2>
                 <img src="imgs/location-icon.png" width="25px" alt="icone de localização">
-                <span id="location">Nome da cidade</span>
-                <img src="" alt="bandeira do país">
+                <span id="location-name">Nome da cidade</span>
+                <img src="imgs/bandeira-icon.png" width="40px" alt="bandeira do país">
             </h2>
             <p id="temperature"><span>28</span>&deg;C</p>
         </div>
         <div class="description-container">
             <p class="description-text">Nublado</p>
-            <img src="" alt="condições do tempo" id="weather-icon">
+            <img src="http://openweathermap.org/img/wn/01d@2x.png" alt="condições do tempo" id="weather-icon">
         </div>
         <div class="details-container">
             <p id="umidity">
